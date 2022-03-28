@@ -96,8 +96,12 @@ span.icon-phone-bg {
     z-index: -1;
 }
 
+h1.carousel-text {
+    width: 70%;
+}
+
 .carousel-item {
-    max-height: 390px!important;
+    max-height: 450px!important;
     min-width: 630px!important;
 }
 
@@ -107,9 +111,11 @@ span.icon-phone-bg {
     z-index: 999;
     left: 8%;
 }
-.carrossel img {
-    width: 100%;
+
+.carousel-item > img {
+    max-width: 100%;
 }
+
 .carousel-inner {
     border-radius: 20px;
 }
@@ -150,5 +156,8 @@ span.icon-phone-bg {
     }
     .cards {
         margin: 1rem 0!important;
+    }
+    h1.carousel-text {
+        display: none;
     }
 }
