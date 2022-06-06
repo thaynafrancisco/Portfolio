@@ -14,8 +14,7 @@ https://thaynafrancisco.github.io/portfolio/
 
 
 Anny sugestions?
-Reach me on Linkedin
-<a href="https://www.linkedin.com/in/thaynafrancisco/
+Reach me on <a href="https://www.linkedin.com/in/thaynafrancisco/
 ">Linkedin</a>
 
 
