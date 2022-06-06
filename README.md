@@ -12,9 +12,11 @@ Hey! I'm Thayna, a designer who can code!
 I hope you enjoy my portfolio
 https://thaynafrancisco.github.io/portfolio/
 
-[1] https://www.linkedin.com/in/thaynafrancisco/ "Linkedin" 
 
 Anny sugestions?
-Reach me on [Linkedin][1]
+Reach me on Linkedin
+<a href="https://www.linkedin.com/in/thaynafrancisco/
+">Linkedin</a>
+
 
 
