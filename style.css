@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* body {
+    cursor: url(https://aucadian.com.au/wp-content/uploads/2020/09/cursor-default1.png)12 12, auto !important;
+}
+a {
+    cursor: url('https://aucadian.com.au/wp-content/uploads/2020/09/cursor-hover1.png')12 12, auto !important;
+}   
+a:active {
+    cursor: url('https://aucadian.com.au/wp-content/uploads/2020/09/cursor-click1.png')12 12, auto !important;
+} */
+
 body {
     background-color: #C8E3FF;
 }
