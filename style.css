@@ -27,10 +27,13 @@ h1 {
 .bg-white {
     border-radius: 24px;
 }
-span.pipe {
-    color: #F72585;
+span.pipe:after {
     font-weight: bold;
-    margin-right: 4px;
+    content: "";
+    height: 12px;
+    width: 2px;
+    background: #F72585;
+    display: inline-block;
 }
 .text-pink {
     color: #F72585;
