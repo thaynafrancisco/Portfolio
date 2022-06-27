@@ -134,11 +134,17 @@ h1.carousel-text {
 .carousel-inner {
     border-radius: 20px;
 }
+.tools img {
+    margin: 0 auto;
+}
 
 /* responsive */
 @media screen and (max-width: 480px) {
-    .bg-white h1 {
-        text-align: center;
+    body {
+        padding: 8px;
+    }
+    h1 {
+        font-size: 32px;
     }
     .cards.bg-white.p-4.mb-4 {
         margin-top: 3rem;
@@ -172,6 +178,12 @@ h1.carousel-text {
     .tools {
         border-radius: 0;
     }
+    .tools img {
+        margin: inherit;
+    }
+    .tools > div {
+        padding: 2rem!important;
+    }    
     .bg-white h1 {
         margin-top: 2rem;
     }
