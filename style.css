@@ -175,9 +175,6 @@ h1.carousel-text {
     h1.carousel-text {
         display: none;
     }
-    .tools {
-        border-radius: 0;
-    }
     .tools img {
         margin: inherit;
     }
