@@ -139,7 +139,7 @@ h1.carousel-text {
 }
 
 /* responsive */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     body {
         padding: 8px;
     }
