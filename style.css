@@ -72,6 +72,7 @@ span.icon-phone-bg {
 .cards {
     border-radius: 8px;
 }
+
 .cards h5 {
     font-weight: bold;
     color: #07187a;
@@ -96,7 +97,7 @@ span.icon-phone-bg {
     vertical-align: center;
 }
 
-.row{
+.row {
     min-height: 300px;
 }
 
@@ -134,8 +135,14 @@ h1.carousel-text {
 .carousel-inner {
     border-radius: 20px;
 }
+
+
 .tools img {
     margin: 0 auto;
+}
+
+a.btn.btn-link {
+    margin: 4px;
 }
 
 /* responsive */
