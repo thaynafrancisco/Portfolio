@@ -11,7 +11,11 @@ a:active {
 } */
 
 body {
-    background-color: #C8E3FF;
+    background-color: #333;
+}
+a {
+    color: #fff;
+    font-weight: 700;
 }
 .card {
     border: transparent;
@@ -21,38 +25,48 @@ body {
 }
 h1 {
     font-family: 'Roboto', sans-serif;
-    color: #07187A;
+    color: #fff;
     font-weight: 900;
 }
-.bg-white {
-    border-radius: 24px;
+p {
+    color: #fff;
+}
+p.card-text {
+    color: #000;
+}
+span.pipe-text {
+    color: #fff;
+}
+.bg-black {
+    /* border-radius: 24px; */
+    background-color:#000;
 }
 span.pipe:after {
     font-weight: bold;
     content: "";
     height: 12px;
     width: 2px;
-    background: #F72585;
+    background: #000;
     display: inline-block;
 }
 .text-pink {
-    color: #F72585;
+    color: #fff;
     font-weight: 500;;
 }
 .btn {
-    background: #4895EF;
-    border-radius: 16px;
+    background: #000;
     color: #fff;
     border: none;
+    border-radius: 0;
 }
 
 .links-footer .btn {
-    background: #4895EF;
+    background: #000;
     color: #fff;
     border: none;
     height: 40px;
     width: 40px;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     text-align: center;
 }
 
@@ -61,7 +75,7 @@ div.interaction{
 }
 
 span.icon-phone-bg {
-    background: #3A0CA3;
+    background: #fff;
     width: 48px;
     height: 48px;
     border-radius: 100%;
@@ -75,7 +89,7 @@ span.icon-phone-bg {
 
 .cards h5 {
     font-weight: bold;
-    color: #07187a;
+    color: #fff;
 }
 
 .latest-projects .card {
@@ -83,7 +97,7 @@ span.icon-phone-bg {
 }
 
 .bg-purple {
-    background: #4895EF;
+    background: #000;
     border-radius: 16px 0 0 16px;
     min-height: 503px;
     display: flex;
@@ -104,7 +118,7 @@ span.icon-phone-bg {
 .square-decoration {
     width: 192px;
     height: 184px;
-    border: 16px solid #4895EF;
+    border: 16px solid #fff;
     display: block;
     position: absolute;
     top: 33%;
@@ -132,9 +146,9 @@ h1.carousel-text {
     max-width: 100%;
 }
 
-.carousel-inner {
+/* .carousel-inner {
     border-radius: 20px;
-}
+} */
 
 
 .tools img {
@@ -153,7 +167,7 @@ a.btn.btn-link {
     h1 {
         font-size: 32px;
     }
-    .cards.bg-white.p-4.mb-4 {
+    .cards.bg-black.p-4.mb-4 {
         margin-top: 3rem;
     }
     .square-decoration {
@@ -188,7 +202,7 @@ a.btn.btn-link {
     .tools > div {
         padding: 2rem!important;
     }    
-    .bg-white h1 {
+    .bg-black h1 {
         margin-top: 2rem;
     }
 }
