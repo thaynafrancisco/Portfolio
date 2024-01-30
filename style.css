@@ -2,10 +2,6 @@ body {
     font-family: "Helvetica", sans-serif;
 }
 
-.header {
-    height: 560px;
-}
-
 .text-gray {
     color: #757575;
 }
@@ -17,7 +13,6 @@ h1 {
 
 .latest {
     background-color: #fafafa;
-    height: 560px;
 }
 
 .alignment {
@@ -37,9 +32,30 @@ h1 {
 
 .bg-dark {
     background: #000!important;
+    padding: 6rem 0;
 }
 
 .footer {
     height: 56px;
     background-color: #f5f5f5;
 }
+
+section {
+    padding: 3rem 0;
+}
+
+.section-title {
+    margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        align-items: center!important;
+      }
+    .alignment {
+      align-items: normal;
+    }
+    h1 {
+        font-size: 48px;
+    }
+  }
