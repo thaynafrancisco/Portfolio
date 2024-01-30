@@ -1,9 +1,6 @@
 body {
     font-family: "Helvetica", sans-serif;
-}
-
-.text-gray {
-    color: #757575;
+    background-color: black;
 }
 
 h1 {
@@ -11,51 +8,8 @@ h1 {
     font-weight: bold;
 }
 
-.latest {
-    background-color: #fafafa;
-}
-
 .alignment {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.shadow {
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-}
-
-.portfolio-item img {
-    border-radius: 2px!important;
-    box-shadow: 1px 1px 1px rgba(136, 136, 136, 0.5);
-}
-
-.bg-dark {
-    background: #000!important;
-    padding: 6rem 0;
-}
-
-.footer {
-    height: 56px;
-    background-color: #f5f5f5;
-}
-
-section {
-    padding: 3rem 0;
-}
-
-.section-title {
-    margin-top: 1rem;
-}
-
-@media (max-width: 767px) {
-    .footer {
-        align-items: center!important;
-      }
-    .alignment {
-      align-items: normal;
-    }
-    h1 {
-        font-size: 48px;
-    }
-  }
