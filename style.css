@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
     background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+
 }
-a {
-    color: #fff;
-    font-weight: 700;
+
+section {
+    margin: 56px 0;
+    padding: 24px 0;
+}
+header {
+    padding: 64px 0;
 }
 .card {
     border: transparent;
@@ -27,7 +34,6 @@ span.pipe-text {
     color: #fff;
 }
 .bg-black {
-    /* border-radius: 24px; */
     background-color:#000;
 }
 span.pipe:after {
@@ -38,15 +44,15 @@ span.pipe:after {
     background: #000;
     display: inline-block;
 }
-.text-pink {
-    color: #fff;
-    font-weight: 500;;
-}
 .btn {
     background: #000;
     color: #fff;
     border: none;
-    border-radius: 0;
+}
+
+.btn-gray {
+    background: #555;
+    margin-left: 8px;
 }
 
 .links-footer .btn {
@@ -105,7 +111,7 @@ span.icon-phone-bg {
     min-height: 300px;
 }
 
-.square-decoration {
+/* .square-decoration {
     width: 192px;
     height: 184px;
     border: 16px solid #000;
@@ -114,16 +120,12 @@ span.icon-phone-bg {
     top: 33%;
     left: 65%;
     z-index: -1;
-}
+} */
 
-h1.carousel-text {
-    width: 60%;
-}
-
-.carousel-item {
+/* .carousel-item {
     max-height: 630px!important;
     min-width: 630px!important;
-}
+} */
 
 /* .carrossel {
     width: 50%;
