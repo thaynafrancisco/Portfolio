@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     background-color: #333;
 }
@@ -133,10 +135,6 @@ h1.carousel-text {
 .carousel-item > img {
     max-width: 100%;
 }
-
-/* .carousel-inner {
-    border-radius: 20px;
-} */
 
 
 .tools img {
