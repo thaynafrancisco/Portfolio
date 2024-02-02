@@ -1,10 +1,6 @@
-
 body {
-    font-family: "Helvetica", sans-serif;
-    background-color: #000!important;
+    background-color: #333;
 }
-
-
 a {
     color: #fff;
     font-weight: 700;
@@ -76,7 +72,7 @@ span.icon-phone-bg {
 }
 
 .cards {
-    border-radius: 8px;
+    background-color: #fff;
 }
 
 .cards h5 {
@@ -110,7 +106,7 @@ span.icon-phone-bg {
 .square-decoration {
     width: 192px;
     height: 184px;
-    border: 16px solid #fff;
+    border: 16px solid #000;
     display: block;
     position: absolute;
     top: 33%;
