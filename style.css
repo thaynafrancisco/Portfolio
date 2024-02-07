@@ -112,7 +112,9 @@ span.icon-phone-bg {
 .row {
     min-height: 300px;
 }
-
+.cards h5, .cards p {
+    color: #000;
+}
 /* .square-decoration {
     width: 192px;
     height: 184px;
@@ -154,6 +156,41 @@ span.icon-phone-bg {
 a.btn.btn-link {
     margin: 4px;
 }
+
+/* .discover {
+    background-color: #89a7d6; 
+}
+.discover p {
+    color: #1e3753; 
+}
+  
+.define {
+    background-color: #fdb813;
+}
+.define p {
+    color: #3e1f00;
+}
+  
+.develop {
+    background-color: #a2b29f; 
+}
+.develop p {
+    color: #333333; 
+}
+  
+.deliver {
+    background-color: #2ecc71;
+}
+.deliver p {
+    color: #ffffff; 
+} */
+
+header p {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+  
 
 /* responsive */
 @media screen and (max-width: 768px) {
@@ -200,5 +237,11 @@ a.btn.btn-link {
     }    
     .bg-black h1 {
         margin-top: 2rem;
+    }
+    .row.align-items-center.p-5 {
+        padding: 0!important;
+    }
+    header p {
+        width: auto;
     }
 }
