@@ -249,4 +249,11 @@ header p {
     header p {
         width: auto;
     }
+    footer.m-5.p-5 {
+        margin: 0!Important;
+        padding: 0!Important;
+    }
+    img {
+        width: 100%!Important;
+    }
 }
