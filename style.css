@@ -137,6 +137,11 @@ span.icon-phone-bg {
     z-index: 999;
     left: 8%;
 } */
+  
+
+.carousel-item img {
+    width: 100%;
+}
 
 .carousel-inner {
     border-radius: 8px;
