@@ -189,14 +189,7 @@ a.btn.btn-link {
 .deliver p {
     color: #ffffff; 
 } */
-
-header p {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 32px;
-}
   
-
 /* responsive */
 @media screen and (max-width: 768px) {
     body {
