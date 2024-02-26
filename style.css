@@ -63,8 +63,9 @@ span.pipe:after {
     border: none;
     height: 40px;
     width: 40px;
-    /* border-radius: 100%; */
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 div.interaction{
