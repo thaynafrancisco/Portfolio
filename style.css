@@ -250,4 +250,7 @@ a.btn.btn-link {
     img {
         width: 100%!Important;
     }
+    .carousel {
+        height: 200px;
+    }
 }
